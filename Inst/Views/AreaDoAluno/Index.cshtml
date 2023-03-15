@@ -1,0 +1,78 @@
+﻿@model IEnumerable<InstModels>
+@{
+    ViewData["Title"] = "Area do Aluno";
+}
+
+
+<!-- Tabela somente para fins de testes. Será editada e posta depois em outra acçao. Ju -->
+
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">   
+    <div class="row">      
+        <div class="col-sm-6 col-md-4 col-md-offset-4">            
+            <h1 class="text-center login-title">Entrar </h1>
+            <div class="account-wall">
+                <img class="profile-img" src="images/profile.png"
+                    alt="">
+                <form class="form-signin">
+                <input type="text" class="form-control" placeholder="Email" required autofocus>
+                <input type="password" class="form-control" placeholder="Password" required>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">
+                    Sign in</button>
+                <label class="checkbox pull-left">
+                    <input type="checkbox" value="remember-me">
+                    Remember me
+                </label>
+                <a href="#" class="pull-right need-help">Ajuda </a><span class="clearfix"></span>
+                </form>
+            </div>
+                <p class="small text-center text-gray-soft">
+                    Não tem uma conta? <a class="btn btn-link" role="button" asp-controller="AreaDoAluno" 
+                    asp-action="Registo">
+                        Registe-se </a>
+            
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">NIF</th>
+            @* <th scope="col">Data de Registro</th>*@
+            <th scope="col">Curso Escolhido</th>
+            <th scope="col">Email</th>
+           @* <th scope="col">Password</th>*@
+        </tr>
+    </thead>
+    <tbody>
+
+        @if (Model != null)
+        {
+            @foreach (var course in Model)
+            {
+                <tr>
+                    <th scope="row">@course.Name</th>
+                    <td>@course.Nif</td>
+                    @* <td>@curso.DataRegistro</td>*@
+                    <td>@course.CursoEscolhido</td>
+                    <td>@course.Email</td>
+                  @*  <td>@course.password</td>*@
+                </tr>
+
+            }
+
+        }
+
+    </tbody>
+</table>
