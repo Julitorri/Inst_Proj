@@ -19,6 +19,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYURvQWx1bm9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/laptop/source/repos/InstDb/Inst/Views/AreaDoAluno/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYURvQWx1bm9cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/laptop/source/repos/InstDb/Inst/Views/AreaDoAluno/Registo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYURvQWx1bm9cUmVnaXN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -31,12 +35,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/laptop/source/repos/InstDb/Inst/Views/DadosCadastrais/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFkb3NDYWRhc3RyYWlzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/laptop/source/repos/InstDb/Inst/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/laptop/source/repos/InstDb/Inst/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laptop/source/repos/InstDb/Inst/Views/Info/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/laptop/source/repos/InstDb/Inst/Views/Shared/Error.cshtml]

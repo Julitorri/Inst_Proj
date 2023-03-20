@@ -1,0 +1,38 @@
+﻿@model IEnumerable<InstModels>
+
+@{
+    ViewData["Title"] = "DadosCadastrais";
+}
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">NIF</th>
+            @* <th scope="col">Data de Registro</th>*@
+            <th scope="col">Curso Escolhido</th>
+            <th scope="col">Email</th>
+            @* <th scope="col">Password</th>*@
+        </tr>
+    </thead>
+    <tbody>
+
+        @if (Model != null)
+        {
+            @foreach (var course in Model)
+            {
+                <tr>
+                    <th scope="row">@course.Name</th>
+                    <td>@course.Nif</td>
+                    @* <td>@curso.DataRegistro</td>*@
+                    <td>@course.CursoEscolhido</td>
+                    <td>@course.Email</td>
+                    @*  <td>@course.password</td>*@
+                </tr>
+
+            }
+
+        }
+
+    </tbody>
+</table>
